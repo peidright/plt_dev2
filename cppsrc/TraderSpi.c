@@ -1,81 +1,6 @@
-signed int __stdcall CThostFtdcTraderSpi::OnRspUserLogout(struct CThostFtdcUserLogoutField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspUserPasswordUpdate(struct CThostFtdcUserPasswordUpdateField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspTradingAccountPasswordUpdate(struct CThostFtdcTradingAccountPasswordUpdateField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspParkedOrderInsert(struct CThostFtdcParkedOrderField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspParkedOrderAction(struct CThostFtdcParkedOrderActionField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspQueryMaxOrderVolume(struct CThostFtdcQueryMaxOrderVolumeField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspRemoveParkedOrder(struct CThostFtdcRemoveParkedOrderField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspRemoveParkedOrderAction(struct CThostFtdcRemoveParkedOrderActionField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspQryOrder(struct CThostFtdcOrderField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspQryTrade(struct CThostFtdcTradeField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspQryInvestor(struct CThostFtdcInvestorField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspQryTradingCode(struct CThostFtdcTradingCodeField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspQryInstrumentMarginRate(struct CThostFtdcInstrumentMarginRateField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspQryInstrumentCommissionRate(struct CThostFtdcInstrumentCommissionRateField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspQryExchange(struct CThostFtdcExchangeField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspQryDepthMarketData(struct CThostFtdcDepthMarketDataField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspQrySettlementInfo(struct CThostFtdcSettlementInfoField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspQryTransferBank(struct CThostFtdcTransferBankField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspQryInvestorPositionDetail(struct CThostFtdcInvestorPositionDetailField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspQryNotice(struct CThostFtdcNoticeField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspQrySettlementInfoConfirm(struct CThostFtdcSettlementInfoConfirmField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspQryInvestorPositionCombineDetail(struct CThostFtdcInvestorPositionCombineDetailField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspQryCFMMCTradingAccountKey(struct CThostFtdcCFMMCTradingAccountKeyField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspQryEWarrantOffset(struct CThostFtdcEWarrantOffsetField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspQryTransferSerial(struct CThostFtdcTransferSerialField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnErrRtnOrderInsert(struct CThostFtdcInputOrderField *a2, struct CThostFtdcRspInfoField *a3);
-signed int __stdcall CThostFtdcTraderSpi::OnErrRtnOrderAction(struct CThostFtdcOrderActionField *a2, struct CThostFtdcRspInfoField *a3);
-signed int __stdcall CThostFtdcTraderSpi::OnRtnInstrumentStatus(struct CThostFtdcInstrumentStatusField *a2);
-signed int __stdcall CThostFtdcTraderSpi::OnRtnTradingNotice(struct CThostFtdcTradingNoticeInfoField *a2);
-signed int __stdcall CThostFtdcTraderSpi::OnRtnErrorConditionalOrder(struct CThostFtdcErrorConditionalOrderField *a2);
-signed int __stdcall CThostFtdcTraderSpi::OnRspQryContractBank(struct CThostFtdcContractBankField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspQryParkedOrder(struct CThostFtdcParkedOrderField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspQryParkedOrderAction(struct CThostFtdcParkedOrderActionField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspQryTradingNotice(struct CThostFtdcTradingNoticeField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspQryBrokerTradingParams(struct CThostFtdcBrokerTradingParamsField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspQryBrokerTradingAlgos(struct CThostFtdcBrokerTradingAlgosField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRtnFromBankToFutureByBank(struct CThostFtdcRspTransferField *a2);
-signed int __stdcall CThostFtdcTraderSpi::OnRtnFromFutureToBankByBank(struct CThostFtdcRspTransferField *a2);
-signed int __stdcall CThostFtdcTraderSpi::OnRtnRepealFromBankToFutureByBank(struct CThostFtdcRspRepealField *a2);
-signed int __stdcall CThostFtdcTraderSpi::OnRtnRepealFromFutureToBankByBank(struct CThostFtdcRspRepealField *a2);
-signed int __stdcall CThostFtdcTraderSpi::OnRtnFromBankToFutureByFuture(struct CThostFtdcRspTransferField *a2);
-signed int __stdcall CThostFtdcTraderSpi::OnRtnFromFutureToBankByFuture(struct CThostFtdcRspTransferField *a2);
-signed int __stdcall CThostFtdcTraderSpi::OnRtnRepealFromBankToFutureByFutureManual(struct CThostFtdcRspRepealField *a2);
-signed int __stdcall CThostFtdcTraderSpi::OnRtnRepealFromFutureToBankByFutureManual(struct CThostFtdcRspRepealField *a2);
-signed int __stdcall CThostFtdcTraderSpi::OnRtnQueryBankBalanceByFuture(struct CThostFtdcNotifyQueryAccountField *a2);
-signed int __stdcall CThostFtdcTraderSpi::OnErrRtnBankToFutureByFuture(struct CThostFtdcReqTransferField *a2, struct CThostFtdcRspInfoField *a3);
-signed int __stdcall CThostFtdcTraderSpi::OnErrRtnFutureToBankByFuture(struct CThostFtdcReqTransferField *a2, struct CThostFtdcRspInfoField *a3);
-signed int __stdcall CThostFtdcTraderSpi::OnErrRtnRepealBankToFutureByFutureManual(struct CThostFtdcReqRepealField *a2, struct CThostFtdcRspInfoField *a3);
-signed int __stdcall CThostFtdcTraderSpi::OnErrRtnRepealFutureToBankByFutureManual(struct CThostFtdcReqRepealField *a2, struct CThostFtdcRspInfoField *a3);
-signed int __stdcall CThostFtdcTraderSpi::OnErrRtnQueryBankBalanceByFuture(struct CThostFtdcReqQueryAccountField *a2, struct CThostFtdcRspInfoField *a3);
-signed int __stdcall CThostFtdcTraderSpi::OnRtnRepealFromBankToFutureByFuture(struct CThostFtdcRspRepealField *a2);
-signed int __stdcall CThostFtdcTraderSpi::OnRtnRepealFromFutureToBankByFuture(struct CThostFtdcRspRepealField *a2);
-signed int __stdcall CThostFtdcTraderSpi::OnRspFromBankToFutureByFuture(struct CThostFtdcReqTransferField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspFromFutureToBankByFuture(struct CThostFtdcReqTransferField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspQueryBankAccountMoneyByFuture(struct CThostFtdcReqQueryAccountField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-int __thiscall ITrader::_ITrader(ITimeAction *this);
 signed int __cdecl ITrader::Execute();
 signed int __cdecl ITrader::Join();
 signed int __cdecl ITrader::Release();
-int __thiscall ITrader::_scalar_deleting_destructor_(ITrader *this, char a2);
-signed int __stdcall CTraderSpi::DoAction(__int32 a2, const char *a3);
-int __fastcall CTraderSpi::Join(int this, int a2);
-int __thiscall CThostFtdcTraderSpi::CThostFtdcTraderSpi(void *this);
-signed int __cdecl CThostFtdcTraderSpi::OnFrontConnected();
-signed int __stdcall CThostFtdcTraderSpi::OnFrontDisconnected(int a2);
-signed int __stdcall CThostFtdcTraderSpi::OnHeartBeatWarning(int a2);
-signed int __stdcall CThostFtdcTraderSpi::OnRspUserLogin(struct CThostFtdcRspUserLoginField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspOrderInsert(struct CThostFtdcInputOrderField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspOrderAction(struct CThostFtdcInputOrderActionField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspSettlementInfoConfirm(struct CThostFtdcSettlementInfoConfirmField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspQryInvestorPosition(struct CThostFtdcInvestorPositionField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspQryTradingAccount(struct CThostFtdcTradingAccountField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspQryInstrument(struct CThostFtdcInstrumentField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-signed int __stdcall CThostFtdcTraderSpi::OnRspError(struct CThostFtdcRspInfoField *a2, int a3, bool a4);
-signed int __stdcall CThostFtdcTraderSpi::OnRtnOrder(struct CThostFtdcOrderField *a2);
-signed int __stdcall CThostFtdcTraderSpi::OnRtnTrade(struct CThostFtdcTradeField *a2);
-int __thiscall std::map<std::basic_string<char_std::char_traits<char>_std::allocator<char>>_const_CThostFtdcInvestorPositionField___std::less<std::basic_string<char_std::char_traits<char>_std::allocator<char>>_const>_std::allocator<std::pair<std::basic_string<char_std::char_traits<char>_std::allocator<char>>_const_CThostFtdcInvestorPositionField__>>>::_map<std::basic_string<char_std::char_traits<char>_std::allocator<char>>_const_CThostFtdcInvestorPositionField___std::less<std::basic_string<char_std::char_traits<char>_std::allocator<char>>_const>_std::allocator<std::pair<std::basic_string<char_std::cha(int this);
-int __thiscall CTraderSpi::CTraderSpi(void *this, const char *a2, const char *a3, const char *Str, const char *Source, char a6, int a7);
 int __thiscall CTraderSpi::Init(int this, const char *a2, const char *a3, const char *Str, const char *Source);
 int __thiscall CTraderSpi::Execute(int this);
 int __fastcall CTraderSpi::Release(int a1, int a2);
@@ -84,23 +9,6 @@ int __thiscall CTraderSpi::ReqUserLogin(void *this);
 int __thiscall CTraderSpi::ReqUserLogin(void *this, const char *Source, const char *a3);
 int __thiscall CTraderSpi::ReqUserLogout(void *this);
 int __fastcall CTraderSpi::OnRspUserLogin(CTraderSpi *this, int a2, struct CThostFtdcRspUserLoginField *a3, char *a4, int a5, bool a6);
-int __thiscall CTraderSpi::ReqSettlementInfoConfirm(void *this);
-signed int __stdcall CTraderSpi::OnRspSettlementInfoConfirm(struct CThostFtdcSettlementInfoConfirmField *a2, struct CThostFtdcRspInfoField *a3, int a4, bool a5);
-int __thiscall CTraderSpi::ReqQryInstrument(void *this, const char *Source);
-int __thiscall CTraderSpi::AddInstrument(CTraderSpi *this, const char *Str);
-// int __usercall _unwindfunclet__AddInstrument_CTraderSpi__QAEXQBD_Z_0<eax>(int a1<ebp>);
-// int __usercall _unwindfunclet__AddInstrument_CTraderSpi__QAEXQBD_Z_1<eax>(int a1<ebp>);
-int __cdecl _ehhandler__AddInstrument_CTraderSpi__QAEXQBD_Z(int a1, int a2);
-int __cdecl CTraderSpi::GetInstrumentInfo(char a1);
-nt __fastcall CTraderSpi::OnRspQryInstrument(CTraderSpi *this, int a2, const char *Src, char *a4, int a5, bool a6);
-nt __cdecl _ehhandler__OnRspQryInstrument_CTraderSpi__UAEXPAUCThostFtdcInstrumentField__PAUCThostFtdcRspInfoField__H_N_Z(int a1, int a2);
-int __thiscall CTraderSpi::ReqQryTradingAccount(void *this);
-int __fastcall CTraderSpi::OnRspQryTradingAccount(CTraderSpi *this, int a2, struct CThostFtdcTradingAccountField *a3, char *a4, int a5, bool a6);
-int __thiscall CTraderSpi::ReqQryInvestorPosition(void *this, const char *Source);
-int __thiscall CTraderSpi::UpdatePosition(void *this, const char *Src);
-int __fastcall CTraderSpi::OnRspQryInvestorPosition(CTraderSpi *this, int a2, const char *a3, char *a4, int a5, bool a6);
-int __thiscall CTraderSpi::ReqOrderInsert(void *this, const char *Source, double a3, char a4, char a5, int a6, int a7, int a8, int a9, int a10);
-int __thiscall CTraderSpi::OnRspOrderInsert(CTraderSpi *this, struct CThostFtdcInputOrderField *a2, char *a3, int a4, bool a5);
 int __fastcall CTraderSpi::UpdateOrderStatus(int this, int a2, struct CExeOrderStatus *a3);
 int __thiscall ITimeAction::DoActionWithLock(char *this, __int32 a2, const char *a3);
 int __thiscall IOrderStatusReceiver::GetCommunicationMode(int this);
@@ -117,19 +25,13 @@ int __fastcall CTraderSpi::IsErrorRspInfo(void *this, int edx0, char *a2);
 bool __thiscall CTraderSpi::IsMyOrder(int this, struct CThostFtdcOrderField *a2);
 bool __thiscall CTraderSpi::IsTradingOrder(void *this, struct CThostFtdcOrderField *a2);
 int __thiscall CTraderSpi::Closeable(void *this, const char *Str, char a3, int a4);
-
 int __thiscall CTraderSpi::AddTrackingOrder(void *this, struct CExeOrderStatus *a2);
 int __thiscall CTraderSpi::UpdateTrackingOrder(void *this, struct CThostFtdcOrderField *Src);
 int __thiscall CTraderSpi::UpdateTrackingOrder(void *this, struct CThostFtdcTradeField *a2);
 int __cdecl CreateRealTraderInstance(const char *Str, const char *Source, bool a3, int a4);
 int __cdecl CreateRealTraderInstance(int a1, char a2, int a3);
-
-nt __cdecl SplitString(_DWORD, _DWORD, _DWORD); // weak
-struct CThostFtdcTraderApi *__cdecl static CThostFtdcTraderApi::CreateFtdcTraderApi(const char *, bool); // idb
-int __cdecl GetToday(_DWORD); // weak
 int __thiscall CExeOrderStatus::CExeOrderStatus(_DWORD); // weak
 nt __thiscall IEventQueue::SendEvent(_DWORD, _DWORD, _DWORD, _DWORD); // weak
-
 bool __cdecl IsFlowControl(int a1)
 {
   int v2; // [sp+Ch] [bp-C4h]@1
