@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>test.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>tools.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>tplat.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +22,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>D74FC9081A7E5861000AF732</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D77A1A551A7E4F190067BB8E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>D7C6C7121A7A8EA200D0404C</key>
 		<dict>
 			<key>primary</key>
