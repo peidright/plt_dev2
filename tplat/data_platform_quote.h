@@ -10,12 +10,19 @@
 #define __tplat__data_platform_quote__
 
 #include <iostream>
+#include "data_platform_account.h"
 
-
+class DataPlatServ;
 class QuoteDataServ
 {
-    QuoteDataServ();
+public:
+    QuoteDataServ(){_dps=NULL;};
+    QuoteDataServ(DataPlatServ *dps){_dps=dps;};
+    int add_quote(Account *account){};
+    int ref_quote(string accountid){};
+
 private:
+    DataPlatServ *_dps;
 };
 
 #endif /* defined(__tplat__data_platform_quote__) */

@@ -10,11 +10,16 @@
 #define __tplat__data_platform_strategy__
 
 #include <iostream>
+class DataPlatServ;
 
 class StrategyDataServ
 {
-    StrategyDataServ();
+public:
+    StrategyDataServ(){_dps=NULL;};
+    StrategyDataServ(DataPlatServ *dps){_dps=dps;};
+    int register_strategy(std::string strategyname){};
 private:
+          DataPlatServ *_dps;
 };
 
 #endif /* defined(__tplat__data_platform_strategy__) */

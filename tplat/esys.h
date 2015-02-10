@@ -12,6 +12,10 @@
 #include <pthread.h>
 class TEventQueue
 {
+    /*用作tick回报和交易类回报的事件驱动机制
+     增加指标驱动，
+     TEventQueue 提供2种驱动，一种是tick级别的驱动。1种是分钟级别的驱动.
+     */
 public:
     TEventQueue(size_t size);
     virtual ~TEventQueue(void);
@@ -24,8 +28,8 @@ protected:
     pthread_rwlock_t rwlock;
     size_t           bufsize;
     long             *tickbuf;
-    const char **    instrumentid;
-    void       **    actorbuf;
+    const char       **instrumentid;
+    void             **actorbuf;
     int              current_index;
     int              execute_index;
 };

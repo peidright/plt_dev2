@@ -11,11 +11,17 @@
 
 #include <iostream>
 
+/*
+ 所有的交易策略，每个交易合约，包含一个OrderAgent对象。负责交易策略的执行。(策略与执行分离)
+ */
+
 class OrderAgent
 {
-    OrderAgent();
+    OrderAgent(){};
+    int order(const char *instrument, double price, int lots, int direct, int flag){};
+    int actor(void *){};
 private:
-
+    
 };
 
 

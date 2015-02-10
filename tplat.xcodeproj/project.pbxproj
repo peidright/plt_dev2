@@ -44,6 +44,15 @@
 		D74FC9621A7E859A000AF732 /* trader_mgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D74FC9601A7E8599000AF732 /* trader_mgr.cpp */; };
 		D74FC9651A7E85E3000AF732 /* data_platform_product.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D74FC9631A7E85E2000AF732 /* data_platform_product.cpp */; };
 		D74FC9681A7FDF9D000AF732 /* order_agent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D74FC9661A7FDF9B000AF732 /* order_agent.cpp */; };
+		D74FC9C01A80A5F7000AF732 /* actor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D74FC9BE1A80A5F6000AF732 /* actor.cpp */; };
+		D74FC9C61A80FC0A000AF732 /* data_platform_io.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D74FC9C41A80FC07000AF732 /* data_platform_io.cpp */; };
+		D74FC9C91A8109B2000AF732 /* dseries.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D74FC9C71A8109B0000AF732 /* dseries.cpp */; };
+		D74FC9CF1A81252C000AF732 /* timemap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D74FC9CD1A81252A000AF732 /* timemap.cpp */; };
+		D74FC9D21A8306E2000AF732 /* ctpapi_stub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D74FC9D01A8306DF000AF732 /* ctpapi_stub.cpp */; };
+		D74FC9D51A830FFB000AF732 /* data_platform_ctp_trade.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D74FC9D31A830FF8000AF732 /* data_platform_ctp_trade.cpp */; };
+		D74FC9D81A831015000AF732 /* data_platform_ctp_quote.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D74FC9D61A831014000AF732 /* data_platform_ctp_quote.cpp */; };
+		D74FC9DE1A83C43E000AF732 /* data_platform_info.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D74FC9DC1A83C43A000AF732 /* data_platform_info.cpp */; };
+		D74FC9E11A88D3C3000AF732 /* data_platform_message.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D74FC9DF1A88D3C2000AF732 /* data_platform_message.cpp */; };
 		D77A1A471A7E336E0067BB8E /* log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D77A1A451A7E336E0067BB8E /* log.cpp */; };
 		D77A1A4B1A7E35000067BB8E /* test_log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D77A1A491A7E35000067BB8E /* test_log.cpp */; };
 		D77A1A4E1A7E42EC0067BB8E /* tplat_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D77A1A4C1A7E42EC0067BB8E /* tplat_main.cpp */; };
@@ -142,6 +151,24 @@
 		D74FC9641A7E85E2000AF732 /* data_platform_product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = data_platform_product.h; sourceTree = "<group>"; };
 		D74FC9661A7FDF9B000AF732 /* order_agent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = order_agent.cpp; sourceTree = "<group>"; };
 		D74FC9671A7FDF9C000AF732 /* order_agent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = order_agent.h; sourceTree = "<group>"; };
+		D74FC9BE1A80A5F6000AF732 /* actor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = actor.cpp; sourceTree = "<group>"; };
+		D74FC9BF1A80A5F7000AF732 /* actor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = actor.h; sourceTree = "<group>"; };
+		D74FC9C41A80FC07000AF732 /* data_platform_io.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = data_platform_io.cpp; sourceTree = "<group>"; };
+		D74FC9C51A80FC09000AF732 /* data_platform_io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = data_platform_io.h; sourceTree = "<group>"; };
+		D74FC9C71A8109B0000AF732 /* dseries.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dseries.cpp; sourceTree = "<group>"; };
+		D74FC9C81A8109B1000AF732 /* dseries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dseries.h; sourceTree = "<group>"; };
+		D74FC9CD1A81252A000AF732 /* timemap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = timemap.cpp; sourceTree = "<group>"; };
+		D74FC9CE1A81252B000AF732 /* timemap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timemap.h; sourceTree = "<group>"; };
+		D74FC9D01A8306DF000AF732 /* ctpapi_stub.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ctpapi_stub.cpp; sourceTree = "<group>"; };
+		D74FC9D11A8306E1000AF732 /* ctpapi_stub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ctpapi_stub.h; sourceTree = "<group>"; };
+		D74FC9D31A830FF8000AF732 /* data_platform_ctp_trade.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = data_platform_ctp_trade.cpp; sourceTree = "<group>"; };
+		D74FC9D41A830FF9000AF732 /* data_platform_ctp_trade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = data_platform_ctp_trade.h; sourceTree = "<group>"; };
+		D74FC9D61A831014000AF732 /* data_platform_ctp_quote.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = data_platform_ctp_quote.cpp; sourceTree = "<group>"; };
+		D74FC9D71A831014000AF732 /* data_platform_ctp_quote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = data_platform_ctp_quote.h; sourceTree = "<group>"; };
+		D74FC9DC1A83C43A000AF732 /* data_platform_info.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = data_platform_info.cpp; sourceTree = "<group>"; };
+		D74FC9DD1A83C43C000AF732 /* data_platform_info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = data_platform_info.h; sourceTree = "<group>"; };
+		D74FC9DF1A88D3C2000AF732 /* data_platform_message.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = data_platform_message.cpp; sourceTree = "<group>"; };
+		D74FC9E01A88D3C2000AF732 /* data_platform_message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = data_platform_message.h; sourceTree = "<group>"; };
 		D77A1A451A7E336E0067BB8E /* log.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = log.cpp; sourceTree = "<group>"; };
 		D77A1A461A7E336E0067BB8E /* log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log.h; sourceTree = "<group>"; };
 		D77A1A491A7E35000067BB8E /* test_log.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_log.cpp; sourceTree = SOURCE_ROOT; };
@@ -268,6 +295,7 @@
 				D74FC94F1A7E833F000AF732 /* data_platform_trade.h */,
 				D74FC9521A7E8401000AF732 /* data_platform_indicator.h */,
 				D74FC9551A7E846F000AF732 /* indicator_mgr.h */,
+				D74FC9C51A80FC09000AF732 /* data_platform_io.h */,
 				D74FC9581A7E848B000AF732 /* product_mgr.h */,
 				D71860B41A7D34E500FAE7A1 /* tick.h */,
 				D71860B01A7D0DBA00FAE7A1 /* esys.h */,
@@ -297,9 +325,15 @@
 				D74FC9571A7E848B000AF732 /* product_mgr.cpp */,
 				D74FC95A1A7E84A8000AF732 /* strategy_mgr.cpp */,
 				D74FC95D1A7E84F9000AF732 /* strategy_agent.cpp */,
+				D74FC9C71A8109B0000AF732 /* dseries.cpp */,
+				D74FC9BF1A80A5F7000AF732 /* actor.h */,
+				D74FC9BE1A80A5F6000AF732 /* actor.cpp */,
 				D74FC9601A7E8599000AF732 /* trader_mgr.cpp */,
+				D74FC9C41A80FC07000AF732 /* data_platform_io.cpp */,
 				D74FC9631A7E85E2000AF732 /* data_platform_product.cpp */,
 				D74FC9661A7FDF9B000AF732 /* order_agent.cpp */,
+				D74FC9DF1A88D3C2000AF732 /* data_platform_message.cpp */,
+				D74FC9E01A88D3C2000AF732 /* data_platform_message.h */,
 			);
 			name = src;
 			sourceTree = "<group>";
@@ -351,6 +385,17 @@
 				D74FC96A1A7FDFB9000AF732 /* src */,
 				D74FC9691A7FDFAE000AF732 /* include */,
 				D7C6C7181A7A8EA200D0404C /* tplat.1 */,
+				D74FC9C81A8109B1000AF732 /* dseries.h */,
+				D74FC9D61A831014000AF732 /* data_platform_ctp_quote.cpp */,
+				D74FC9D71A831014000AF732 /* data_platform_ctp_quote.h */,
+				D74FC9CD1A81252A000AF732 /* timemap.cpp */,
+				D74FC9CE1A81252B000AF732 /* timemap.h */,
+				D74FC9D01A8306DF000AF732 /* ctpapi_stub.cpp */,
+				D74FC9D11A8306E1000AF732 /* ctpapi_stub.h */,
+				D74FC9D31A830FF8000AF732 /* data_platform_ctp_trade.cpp */,
+				D74FC9D41A830FF9000AF732 /* data_platform_ctp_trade.h */,
+				D74FC9DC1A83C43A000AF732 /* data_platform_info.cpp */,
+				D74FC9DD1A83C43C000AF732 /* data_platform_info.h */,
 			);
 			path = tplat;
 			sourceTree = "<group>";
@@ -481,6 +526,15 @@
 				D74FC9621A7E859A000AF732 /* trader_mgr.cpp in Sources */,
 				D74FC9651A7E85E3000AF732 /* data_platform_product.cpp in Sources */,
 				D74FC9681A7FDF9D000AF732 /* order_agent.cpp in Sources */,
+				D74FC9C01A80A5F7000AF732 /* actor.cpp in Sources */,
+				D74FC9C61A80FC0A000AF732 /* data_platform_io.cpp in Sources */,
+				D74FC9C91A8109B2000AF732 /* dseries.cpp in Sources */,
+				D74FC9CF1A81252C000AF732 /* timemap.cpp in Sources */,
+				D74FC9D21A8306E2000AF732 /* ctpapi_stub.cpp in Sources */,
+				D74FC9D51A830FFB000AF732 /* data_platform_ctp_trade.cpp in Sources */,
+				D74FC9D81A831015000AF732 /* data_platform_ctp_quote.cpp in Sources */,
+				D74FC9DE1A83C43E000AF732 /* data_platform_info.cpp in Sources */,
+				D74FC9E11A88D3C3000AF732 /* data_platform_message.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

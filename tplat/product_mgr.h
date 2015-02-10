@@ -10,6 +10,11 @@
 #define __tplat__product_mgr__
 
 #include <iostream>
+
+/*
+    用于管理移仓事件 
+ */
+
 class ProductMgr{
     ProductMgr();
 private:

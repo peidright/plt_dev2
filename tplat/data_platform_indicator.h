@@ -10,11 +10,29 @@
 #define __tplat__data_platform_indicator__
 
 #include <iostream>
+#include "actor.h"
 
+class DataPlatServ;
 class IndicatorDataServ
 {
-    IndicatorDataServ();
+   
+    IndicatorDataServ(){_dps=NULL;};
+    IndicatorDataServ(DataPlatServ *dps){_dps=dps;};
+    int register_indicator(const char *instrument,Actor &actor)
+    {
+        /*
+         */
+        return 0;
+    }
+    int unregister_indicator(const char *instrument, Actor &actor)
+    {
+        /*
+         */
+        return 0;
+    }
+
 private:
+    DataPlatServ *_dps;
 };
 
 

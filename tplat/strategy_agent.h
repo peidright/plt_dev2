@@ -9,7 +9,15 @@
 #ifndef __tplat__strategy_agent__
 #define __tplat__strategy_agent__
 
+/*
+    所有的交易策略，继承StrategyAgent
+ */
+
+
+
 #include <iostream>
+
+
 
 class StrategyAgent
 {
