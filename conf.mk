@@ -1,4 +1,4 @@
-ROOT_DIR=/home/dev/plt_dev/
+ROOT_DIR=/home/quant/plt_dev2/
 THIRD_LDIR=third/lib
 THIRD_IDIR=third/include
 

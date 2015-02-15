@@ -1,11 +1,12 @@
 include conf.mk
-all: ctp test 
+all: tplat test 
 	echo "finished"
-ctp: ctp.o
-	echo "ctp build"
+.PHONY: tplat
+tplat: 
+	echo "tplatbuild"
+	make -C tplat
 test:
 	echo "test finished"
-
-ctp.o:
-	make -C src
-	echo $(BOOST_DIR)
+.PHONY: clean
+clean:
+	rm -rf *.o
