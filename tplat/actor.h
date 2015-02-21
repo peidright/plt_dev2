@@ -17,7 +17,7 @@
 #include <string>
 #include <pthread.h>
 #include "ThostFtdcUserApiDataType.h"
-#include "Tick.h"
+#include "tick.h"
 
 using namespace std;
 

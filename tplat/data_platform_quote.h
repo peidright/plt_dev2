@@ -10,19 +10,27 @@
 #define __tplat__data_platform_quote__
 
 #include <iostream>
+#include "data_platform_ctp_quote.h"
 #include "data_platform_account.h"
+#include <map>
 
 class DataPlatServ;
+class TPlatThirdQuoteApi;
+class TPlatThirdQuoteSpi;
 class QuoteDataServ
 {
 public:
-    QuoteDataServ(){_dps=NULL;};
-    QuoteDataServ(DataPlatServ *dps){_dps=dps;};
-    int add_quote(Account *account){};
-    int ref_quote(string accountid){};
-
+    QuoteDataServ(string dir, QuoteAddrInfo &addrinfo,DataPlatServ *dps);
+    int run();
+    int add_inst(string instn);
 private:
+    map<string, int>  needed_inst;
+    map<string, int>  snifed_inst;
+    QuoteAddrInfo _addrinfo;
+    string        _dir;
     DataPlatServ *_dps;
+    TPlatThirdQuoteApi  *_quote_api;
+    TPlatThirdQuoteSpi  *_quote_spi;
 };
 
 #endif /* defined(__tplat__data_platform_quote__) */

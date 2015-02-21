@@ -16,7 +16,7 @@ class DataPlatServ;
 
 class Account {
 public:
-    Account(TraderInfo *traderinfo, TradeInfo *tradeinfo, QuoteInfo *quoteinfo){
+    Account(TraderInfo *traderinfo, TradeAddrInfo *tradeinfo, QuoteInfo *quoteinfo){
         
         return;
     };
@@ -27,7 +27,7 @@ public:
     };
 private:
     TraderInfo *traderinfo;
-    TradeInfo  *tradeinfo;
+    TradeAddrInfo  *tradeinfo;
     QuoteInfo  *quoteinfo;
 };
 

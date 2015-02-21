@@ -30,6 +30,13 @@ int main(int argc, const char * argv[])
         0x90, 0xab, 0xcd, 0xef };
     std::cout << (u1 == u2) << "\n";
     LOG_INIT("127.0.0.1",8888, "test.log");
+
+
+    tplat_main(argc,argv);
+    while(1){
+        sleep(1);
+        cout<<"i am looping"<<std::endl;;
+    }
     
     test_main(argc,argv);
     return 0;

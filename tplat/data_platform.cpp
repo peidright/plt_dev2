@@ -11,3 +11,9 @@
 
 
 
+
+DataPlatServ::DataPlatServ()
+{
+    tplat_io=new TPlatIo();
+    tplat_io->init("./data");
+}

@@ -12,8 +12,6 @@
 #define __tplat__data_platform_info__
 #include <iostream>
 using namespace std;
-#include "data_platform_ctp_quote.h"
-#include "data_platform_ctp_trade.h"
 
 class TraderInfo{
     string username;
@@ -21,23 +19,37 @@ class TraderInfo{
 };
 
 class QuoteInfo {
+    string username;
+    string password;
     const static int ADDR_SIZE=6;
     string addr[ADDR_SIZE];
     string brokerid;
 };
 
-class TradeInfo {
+class TradeAddrInfo {
     const static int ADDR_SIZE=6;
     string addr[ADDR_SIZE];
     string brokerid;
+    string username;
+    string password;
 };
 
+class QuoteAddrInfo {
+    public:
+    const static int ADDR_SIZE=6;
+    string addr[ADDR_SIZE];
+    string brokerid;
+    string username;
+    string password;
+};
+/* 
 class TPlatApiInfo {
     TPlatThirdQuoteSpi *quotespi;
     TPlatThirdTraderApi *tradeapi;
     TPlatThirdQuoteApi  *quoteapi;
     TPlatThirdTraderSpi *tradeSpi;
 };
+*/
 
 
 

@@ -1,4 +1,3 @@
-//
 //  actor.cpp
 //  tplat
 //

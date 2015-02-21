@@ -18,8 +18,8 @@ class TradeDataServ
 public:
     TradeDataServ(){_dps=NULL;};
     TradeDataServ(DataPlatServ *dps){_dps=dps;};
-    int add_trade(Account *account){};
-    int ref_trade(Account *account){};
+    int add_trade(Account *account){return 0;};
+    int ref_trade(Account *account){return 0;};
 private:
     DataPlatServ *_dps;
 };
